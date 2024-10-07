@@ -1,38 +1,31 @@
 ---
-name: Bug report
+name: Bug - Short description
 about: Create a report to help us improve
 title: ''
 labels: bug
-assignees: aripot007
+assignees: Ciflire, SirSquiggle
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Décriver l'incident** \
+Description claire et concise du bug
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Etapes pour reproduire l'erreur** \
+Etapes:
+1. ...
+2. ...
+3. ...
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Comportement attendu**\
+Description du comportement attendu
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Screenshots**\
+Si possible expliquez les captures d'écran
 
-**Desktop (please complete the following information):**
+**Informations complémentaires**
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
 
-**Additional context**
-Add any other context about the problem here.
+
+**Information supplémentaires**
