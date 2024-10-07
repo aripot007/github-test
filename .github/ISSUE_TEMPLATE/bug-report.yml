@@ -55,5 +55,4 @@ body:
     attributes:
       label: Informations complémentaires
       description: "Donnez ici les autres informations qui pourraient nous aider"
-      placeholder: |
-        " - OS: iOS"
+      placeholder: "- OS: iOS"
