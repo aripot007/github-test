@@ -1,9 +1,9 @@
 ---
-name: Bug - Short description
-about: Create a report to help us improve
+name: Signalement de bug
+about: Signalez un bug pour nous aider à le corriger
 title: ''
 labels: bug
-assignees: Ciflire, SirSquiggle
+assignees: aripot007
 
 ---
 
@@ -23,9 +23,8 @@ Description du comportement attendu
 Si possible expliquez les captures d'écran
 
 **Informations complémentaires**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
-
+ - OS: [e.g. iOS, Ubuntu, Windows 10 ...]
+ - Browser [e.g. chrome, firefox, safari]
 
 
 **Information supplémentaires**
