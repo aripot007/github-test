@@ -13,17 +13,17 @@ body:
       description: Décrivez le bug, et le comportement attendu
       placeholder: Dites-nous ce que vous voyez et ce que vous vous attendiez à voir !
       value: |
-        "## Description du problème"
-        ""
-        "Description claire et concise du bug"
-        ""
-        "## Comportement attendu"
-        ""
-        "Description du comportement attendu"
-        ""
-        "## Screenshots"
-        ""
-        "Si possible expliquez les captures d'écran"
+        ## Description du problème
+        
+        Description claire et concise du bug
+        
+        ## Comportement attendu
+        
+        Description du comportement attendu
+        
+        ## Screenshots
+        
+        Si possible expliquez les captures d'écran
     validations:
       required: true
   - type: textarea
