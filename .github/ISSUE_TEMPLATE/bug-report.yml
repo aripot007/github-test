@@ -7,45 +7,53 @@ assignees:
   - aripot007
 body:
   - type: textarea
+    id: desc
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: Description du bug
+      description: Décrivez le bug, et le comportement attendu
+      placeholder: Dites-nous ce que vous voyez et ce que vous vous attendiez à voir !
+      value: |
+        "## Description du problème"
+        ""
+        "Description claire et concise du bug"
+        ""
+        "## Comportement attendu"
+        ""
+        "Description du comportement attendu"
+        ""
+        "## Screenshots"
+        ""
+        "Si possible expliquez les captures d'écran"
     validations:
       required: true
-  - type: dropdown
-    id: version
+  - type: textarea
+    id: repro
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-      default: 0
-    validations:
-      required: true
+      label: Étapes de reproduction
+      description: "Décrivez les étapes à suivre pour reproduire le bug"
+      value: |
+        1.
+        2.
+        3.
+        ...
   - type: dropdown
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: Sur quels navigateurs avez-vous observé le bug ?
       multiple: true
       options:
+        - Bornes du bar
         - Firefox
+        - Firefox (Mobile)
         - Chrome
+        - Chrome (Mobile)
         - Safari
-        - Microsoft Edge
+        - Safari (Mobile)
+        - Autre
   - type: textarea
-    id: logs
+    id: additional-info
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: Informations complémentaires
+      description: "Donnez ici les autres informations qui pourraient nous aider"
+      placeholder: |
+        " - OS: iOS"
